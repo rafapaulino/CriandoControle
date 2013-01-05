@@ -20,6 +20,9 @@
 		6A1C75781619DF39004B1EA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C75591619DF39004B1EA2 /* Foundation.framework */; };
 		6A1C75801619DF39004B1EA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C757E1619DF39004B1EA2 /* InfoPlist.strings */; };
 		6A1C75831619DF39004B1EA2 /* CriandoControleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C75821619DF39004B1EA2 /* CriandoControleTests.m */; };
+		6A1C758E1619DF5B004B1EA2 /* checkbox_nao.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C758C1619DF5B004B1EA2 /* checkbox_nao.png */; };
+		6A1C758F1619DF5B004B1EA2 /* checkbox_sim.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C758D1619DF5B004B1EA2 /* checkbox_sim.png */; };
+		6A1C75921619DF8C004B1EA2 /* NovoControle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C75911619DF8C004B1EA2 /* NovoControle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,10 @@
 		6A1C757F1619DF39004B1EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1C75811619DF39004B1EA2 /* CriandoControleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CriandoControleTests.h; sourceTree = "<group>"; };
 		6A1C75821619DF39004B1EA2 /* CriandoControleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriandoControleTests.m; sourceTree = "<group>"; };
+		6A1C758C1619DF5B004B1EA2 /* checkbox_nao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_nao.png; sourceTree = "<group>"; };
+		6A1C758D1619DF5B004B1EA2 /* checkbox_sim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_sim.png; sourceTree = "<group>"; };
+		6A1C75901619DF8C004B1EA2 /* NovoControle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovoControle.h; sourceTree = "<group>"; };
+		6A1C75911619DF8C004B1EA2 /* NovoControle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovoControle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,8 @@
 		6A1C75481619DF39004B1EA2 = {
 			isa = PBXGroup;
 			children = (
+				6A1C758C1619DF5B004B1EA2 /* checkbox_nao.png */,
+				6A1C758D1619DF5B004B1EA2 /* checkbox_sim.png */,
 				6A1C755D1619DF39004B1EA2 /* CriandoControle */,
 				6A1C757B1619DF39004B1EA2 /* CriandoControleTests */,
 				6A1C75561619DF39004B1EA2 /* Frameworks */,
@@ -117,6 +126,8 @@
 				6A1C756C1619DF39004B1EA2 /* ViewController.h */,
 				6A1C756D1619DF39004B1EA2 /* ViewController.m */,
 				6A1C755E1619DF39004B1EA2 /* Supporting Files */,
+				6A1C75901619DF8C004B1EA2 /* NovoControle.h */,
+				6A1C75911619DF8C004B1EA2 /* NovoControle.m */,
 			);
 			path = CriandoControle;
 			sourceTree = "<group>";
@@ -224,6 +235,8 @@
 			files = (
 				6A1C75621619DF39004B1EA2 /* InfoPlist.strings in Resources */,
 				6A1C756B1619DF39004B1EA2 /* MainStoryboard.storyboard in Resources */,
+				6A1C758E1619DF5B004B1EA2 /* checkbox_nao.png in Resources */,
+				6A1C758F1619DF5B004B1EA2 /* checkbox_sim.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 				6A1C75641619DF39004B1EA2 /* main.m in Sources */,
 				6A1C75681619DF39004B1EA2 /* AppDelegate.m in Sources */,
 				6A1C756E1619DF39004B1EA2 /* ViewController.m in Sources */,
+				6A1C75921619DF8C004B1EA2 /* NovoControle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

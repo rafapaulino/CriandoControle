@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NovoControle.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet NovoControle *meuCheck;
+- (IBAction)mudouValorCheck:(NovoControle *)sender;
 
 @end
